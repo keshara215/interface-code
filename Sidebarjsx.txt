@@ -1,0 +1,23 @@
+import React from "react";
+import "../App.css";
+
+function Sidebar() {
+  return (
+    <div className="Sidebar">
+     <div className="sidebar-top">
+        <img src="https://fluentmyenglish.com/static/media/Login_name.d27884b2b7c329f5c95c.png" alt="Logo" />
+      </div>
+    <ul><b>
+        <li><a href="/">Dashboard</a></li>
+        <li><a href="/package">Package</a></li>
+        <li><a href="/session-history">Session History</a></li>
+        <li><a href="/purchase-history">Purchase History</a></li>
+        <li><a href="/faq-support">FAQ &amp; Support</a></li>
+        <li><a href="/about-us">About Us</a></li>
+      </b></ul>
+     
+    </div>
+  )
+}
+
+export default Sidebar
